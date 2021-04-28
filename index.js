@@ -43,5 +43,5 @@ array=[multiply(s),add(s),modulo(s)];
      return s3;
    }
    return s3;
-  
+
  }
