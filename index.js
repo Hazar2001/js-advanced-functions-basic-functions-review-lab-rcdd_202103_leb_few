@@ -30,18 +30,18 @@ array=[multiply(s),add(s),modulo(s)];
 
 
    function multiply(s){
-     
+
      return s*2;
    }
    function add(s){
-      
+
      return s+1000;
    }
    function modulo(s){
-     
+
      return s2%7;
    }
-   
+
 function actionApplyer(s,array){
 if (array.length === 0)
 return s;
