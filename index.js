@@ -26,24 +26,24 @@ const Calculator={
   divide : function(divide) { return 10/5; },
 }
 
-function actionApplyer(s="13",array){
-  if(array.length===0)
-  return s;
-
 array=[multiply(s),add(s),modulo(s)];
 
+
    function multiply(s){
-     s1=s*2;
-     return s1;
+     
+     return s*2;
    }
    function add(s){
-     s2= s1+1000;
-     return s2;
+      
+     return s+1000;
    }
    function modulo(s){
-     s3= s2%7;
-     return s3;
+     
+     return s2%7;
    }
-   return s=s3;
-
+   
+function actionApplyer(s,array){
+if (array.length === 0)
+return s;
+let result=array[2](array[1](array[0](s)));
  }
