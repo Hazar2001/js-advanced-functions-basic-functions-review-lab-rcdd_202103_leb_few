@@ -26,9 +26,11 @@ const Calculator={
   divide : function(divide) { return 10/5; },
 }
 
-function actionApplyer(s="0",array){
+function actionApplyer(s,array){
+  if(array.length===0)
+  return s;
+  
 array=[multiply(s),add(s),modulo(s)];
-
 
    function multiply(s){
      s1=s*2;
