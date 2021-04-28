@@ -31,4 +31,5 @@ function actionApplyer(s,array){
 if (array.length === 0)
 return s;
 let result=array[2](array[1](array[0](s)));
+return result;
  }
