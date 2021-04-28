@@ -29,7 +29,7 @@ const Calculator={
 function actionApplyer(s,array){
   if(array.length===0)
   return s;
-  
+
 array=[multiply(s),add(s),modulo(s)];
 
    function multiply(s){
