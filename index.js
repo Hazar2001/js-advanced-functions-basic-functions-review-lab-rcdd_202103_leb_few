@@ -44,7 +44,7 @@ array=[multiply(s),add(s),modulo(s)];
      s3= s2%7;
      return s3;
    }
-   return s3;
+   return s=s3;
 
  }
 actionApplyer();
