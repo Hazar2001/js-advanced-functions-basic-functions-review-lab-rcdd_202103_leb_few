@@ -47,4 +47,3 @@ array=[multiply(s),add(s),modulo(s)];
    return s=s3;
 
  }
-
